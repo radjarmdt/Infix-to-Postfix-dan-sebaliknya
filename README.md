@@ -3,7 +3,7 @@
 #include <cctype>
 using namespace std;
 
-int precedence(char op) {
+int precedence(char op) {    
     if (op == '+' || op == '-') return 1;
     if (op == '*' || op == '/') return 2;
     if (op == '^') return 3;
